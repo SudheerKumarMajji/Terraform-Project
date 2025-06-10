@@ -1,0 +1,12 @@
+region            = "us-east-1"
+vpc_cidr_block    = "10.0.0.0/16"
+vpc_tag           = "test_vpc"
+subnet_cidr_block = ["10.0.1.0/24", "10.0.2.0/24", "10.0.3.0/24"]
+azs               = ["us-east-1a", "us-east-1b", "us-east-1c"]
+subnet_tag        = "test_subnet"
+igw_tag           = "test_igw"
+rt_tag            = "test_rt"
+rt_cidr           = "0.0.0.0/0"
+instance_type     = "t2.micro"
+ami               = "ami-0953476d60561c955"
+ec2_tag           = "test1_ec2"

@@ -1,0 +1,11 @@
+variable "region" {}
+variable "ami" {}
+variable "vpc_cidr_block" {}
+variable "vpc_tag" {}
+variable "subnet_cidr_block" {}
+variable "subnet_tag" {}
+variable "igw_tag" {}
+variable "rt_tag" {}
+variable "rt_cidr" {}
+variable "instance_type" {}
+variable "ec2_tag" {}
